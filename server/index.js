@@ -1,9 +1,7 @@
-const { mw } = require('./middleware');
-const router = require('./routes');
+const router = require('../routes');
 
 const app = require('express')();
-require('dotenv').config();
-require('dotenv').config();
+require('dotenv').config;
 const port = process.env.PORT || 3001 ;
 
 app.use(router);
