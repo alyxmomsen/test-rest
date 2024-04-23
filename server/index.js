@@ -9,3 +9,5 @@ app.use(router);
 app.listen( port , () => {
     console.log('u app runing on port');
 });
+
+module.exports = app ;
