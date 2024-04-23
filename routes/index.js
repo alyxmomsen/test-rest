@@ -5,7 +5,7 @@ const router = require('express').Router() ;
 router.get('/' ,
     mw ,
     async (req , res) => {
-        res.status(200).send(`hello from my server , on ${process.env.PORT}`);
+        res.status(200).json(`hello from my server , on ${process.env.PORT}`);
     }
 )
 
